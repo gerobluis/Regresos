@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_comeback_search">http://test.regresos.com/comeback/search.json</string>
+    <string name="url_login">http://test.regresos.com/users/applogin.json</string>
+    <string name="url_bus_auto">http://test.regresos.com/accounts/autocomplete</string>
+    <string name="url_ciudad_auto">http://test.regresos.com/cities/autocomplete</string>
+    <string name="url_register">http://test.regresos.com/accounts/addapp/transportista.json</string>
+    <string name="url_forgot_pass">http://test.regresos.com/users/recuperar</string>
+    <string name="url_my_profile">http://test.regresos.com/cuenta/perfil.json</string>
+    <string name="url_view_profile">http://test.regresos.com/Accounts/viewapp.json</string>
+    <string name="url_edit_profile">http://test.regresos.com/Accounts/editprofileapp.json</string>
+    <string name="url_profile_trucks">http://test.regresos.com/accountsTrucks/addapp.json</string>
+    <string name="url_profile_service">http://test.regresos.com/accounts/service_addapp.json</string>
+    <string name="url_comeback">http://test.regresos.com/comeback/mycomebacks.json</string>
+    <string name="url_shipments">http://test.regresos.com/shipments/miscargasapp/</string>
+    <!-- <string name="url_shipments">http://regresos.com/shipments/shipmentsapp</string> -->
+    <string name="url_shipments_detail">http://test.regresos.com/shipments/viewapp/</string>
+    <string name="url_shipment_oferts">http://test.regresos.com/shipments/shipments_deals/</string>
+    <string name="url_cargas_utils">http://test.regresos.com/shipments/viewapp/2.json</string>
+    <string name="url_perguntas">http://test.regresos.com/detalle/regreso/3.json</string>
+    <string name="url_soliticudes">http://test.regresos.com/comeback/requests/3.json</string>
+    <string name="url_add_regresos">http://test.regresos.com/comeback/addapp.json</string>
+    <string name="url_add_shipments">http://test.regresos.com/Shipments/addapp</string>
+    <string name="url_deal_accept">http://test.regresos.com/Deals/acceptapp/</string>
+    <string name="url_directorio">http://test.regresos.com/directorio.json</string>
+
+    <!--
+   <string name="url_comeback_search">http://regresos.com/comeback/search.json</string>
+    <string name="url_login">http://regresos.com/users/applogin.json</string>
+    <string name="url_bus_auto">http://regresos.com/accounts/autocomplete</string>
+     <string name="url_ciudad_auto">http://regresos.com/cities/autocomplete</string>
+    <string name="url_register">http://regresos.com/accounts/addapp/transportista.json</string>
+    <string name="url_forgot_pass">http://regresos.com/users/recuperar</string>
+    <string name="url_my_profile">http://regresos.com/cuenta/perfil.json</string>
+    <string name="url_view_profile">http://regresos.com/Accounts/viewapp.json</string>
+    <string name="url_edit_profile">http://regresos.com/Accounts/editprofileapp.json</string>
+    <string name="url_profile_trucks">http://regresos.com/accountsTrucks/addapp.json</string>
+    <string name="url_profile_service">http://regresos.com/accounts/service_addapp.json</string>
+    <string name="url_comeback">http://regresos.com/comeback/mycomebacks.json</string>
+    <string name="url_shipments">http://regresos.com/shipments/miscargasapp/</string> 
+    <string name="url_shipments">http://regresos.com/shipments/shipmentsapp</string>
+   <string name="url_shipments_detail">http://regresos.com/shipments/viewapp/</string>
+    <string name="url_shipment_oferts">http://regresos.com/shipments/shipments_deals/</string>
+    <string name="url_cargas_utils">http://regresos.com/shipments/viewapp/2.json</string>
+    <string name="url_perguntas">http://regresos.com/detalle/regreso/3.json</string>
+    <string name="url_soliticudes">http://regresos.com/comeback/requests/3.json</string>
+    <string name="url_add_regresos">http://regresos.com/comeback/addapp.json</string>
+    <string name="url_add_shipments">http://regresos.com/Shipments/addapp</string>
+    <string name="url_deal_accept">http://regresos.com/Deals/acceptapp/</string>
+    <string name="url_directorio">http://regresos.com/directorio.json</string>
+    -->
+
+    <string name="ext_json">.json</string>
+    <string name="url_photo">http://test.regresos.com/img/uploads/thumbs/grande/</string>
+    <string name="app_name">Regresos</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_image">Splash Screen Image</string>
+
+    <!-- first screen -->
+    <string name="btn_reg_txt">Registrate en Regresos</string>
+    <string name="btn_login_txt">Ingresar a mi cuenta</string>
+
+    <!-- login type screen -->
+    <string name="dueno_carga_txt">Dueño de carga</string>
+    <string name="transportista_txt">Transportista</string>
+    <string name="logistico_txt">Logistico</string>
+
+    <!-- login screen -->
+    <string name="login_txt">Iniciar Sesion</string>
+    <string name="hint_mail">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="re_pass_txt">Recordar Contraseña</string>
+    <string name="for_pass_txt"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="register_me">Registrarme</string>
+
+    <!-- registration layout -->
+    <string name="hint_email">Correo electrónico</string>
+    <string name="register_txt">Registrate en Regresos</string>
+    <string name="hint_tele">Teléfono</string>
+    <string name="hint_des">¿Cómo nos conoce?</string>
+    <string name="accept_agree">Accepto los terminos condiciones</string>
+    <string name="hint_reg_first_name">Nombre(s)</string>
+    <string name="hint_reg_last_name">Apellido(s)</string>
+    <string name="type">tipo</string>
+    <string name="already_have_acc">¿Tu empresa ya tiene cuenta en regresos.com?</string>
+    <string name="acc_data">Datos de la cuenta</string>
+    <string name="des">Descripción</string>
+    <string name="office">Oficina</string>
+    <string name="hint_business_name">¿Donde trabajas?</string>
+
+    <string-array name="arr_how_know">
+        <item>E-mail</item>
+        <item>Expo</item>
+        <item>Google</item>
+        <item>Llamada telefónica</item>
+        <item>Recomendación</item>
+        <item>Redes sociales</item>
+        <item>Revistas</item>
+        <item>Otra</item>
+        <item>Radio</item>
+        <item>Televisión</item>
+        <item>Periodico</item>
+    </string-array>
+    <string-array name="arr_how_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="arr_type">
+        <item>Casa</item>
+        <item>Oficina</item>
+        <item>Celular</item>
+        <item>Nextel</item>
+    </string-array>
+    <string-array name="arr_when">
+        <item>Antes</item>
+        <item>El</item>
+        <item>Despues</item>
+    </string-array>
+
+    <!-- Dashboard -->
+    <string-array name="arr_drawer_menu_transportista">
+        <item>Mi Perfil</item>
+        <item>Mis Regresos</item>
+        <item>Mis Negociaciones</item>
+        <item>Mis Mensajes</item>
+        <item>Directorio</item>
+        <item>Certificate</item>
+        <item>Anunciate</item>
+        <item>Ajustes</item>
+    </string-array>
+    <string-array name="arr_drawer_menu_dcarga">
+        <item>Mi Perfil</item>
+        <item>Mi Cargas</item>
+        <item>Directorio</item>
+        <item>Mis Negociaciones</item>
+        <item>Mis Mensajes</item>
+        <item>Certificate</item>
+        <item>Anunciate</item>
+        <item>Contactanos</item>
+        <item>Ajustes</item>
+    </string-array>
+    <string-array name="arr_drawer_menu_logistico">
+        <item>Mi Perfil</item>
+        <item>Mis Regresos</item>
+        <item>Mi Cargas</item>
+        <item>Mis Negociaciones</item>
+        <item>Mis Mensajes</item>
+        <item>Directorio</item>
+        <item>Certificate</item>
+        <item>Anunciate</item>
+        <item>Contactanos</item>
+        <item>Ajustes</item>
+    </string-array>
+
+    <string name="group_id_dcarga">1</string>
+    <string name="group_id_transportista">2</string>
+    <string name="group_id_logistico">3</string>
+
+    <!-- profile -->
+    <string name="information_general">Información General</string>
+    <string name="hint_profile_name">Nombre Completo</string>
+    <string name="hint_profile_email">Contraseña</string>
+    <string name="hint_profile_tele">Teléfono</string>
+    <string name="acc_description">Descripción de la cuenta</string>
+    <string name="hint_profile_name1">Nombre completo</string>
+    <string name="hint_profile_des">Descripción</string>
+    <string name="direction">Dirección</string>
+    <string name="profile_office">Oficina</string>
+    <string name="street_no">Calle y Número</string>
+    <string name="profile_tele1">Teléfono</string>
+    <string name="radio">Radio</string>
+    <string name="btn_save_profile">Guardar cambios</string>
+    <string name="truck_type">Tipo de camiones</string>
+    <string name="my_service">Mis Servicios</string>
+
+    <string-array name="arr_services">
+        <item>Blindado</item>
+        <item>Caballete</item>
+        <item>Caja abierta</item>
+        <item>Caja seca</item>
+        <item>Caja seca - 48 pies</item>
+        <item>Caja seca - 53 pies</item>
+        <item>Caja seca Full</item>
+        <item>Caja seca Rabon</item>
+        <item>Caja seca Torton</item>
+        <item>Camion Mudanzero</item>
+        <item>Equipo especializado</item>
+        <item>Grúa industrial</item>
+        <item>Equipo especializado</item>
+        <item>Grñua indsutrial</item>
+    </string-array>
+    <string-array name="arr_categories">
+        <item>Alimento agrícola</item>
+        <item>Automotriz</item>
+        <item>Carga general</item>
+        <item>Carga peligrosa</item>
+        <item>Carga voluminosa</item>
+        <item>Especializada</item>
+        <item>Ganado</item>
+        <item>Granel Sólido</item>
+        <item>Líquidos</item>
+        <item>Maquinaría</item>
+        <item>Mudanza</item>
+        <item>Perecederos</item>
+    </string-array>
+    <string-array name="arr_truck_type">
+        <item>Almacenaje</item>
+        <item>Custodia de mercancia</item>
+        <item>Emplayado de mercancia</item>
+        <item>Grúa</item>
+        <item>Entarimado de mercancia</item>
+        <item>Entrega a domicilio</item>
+        <item>Ocurre</item>
+        <item>Maniobras</item>
+        <item>Montacargas</item>
+        <item>Outsourcing logístico</item>
+        <item>Radio comunicación</item>
+        <item>Rastreo satelital (GPS)</item>
+        <item>Seguro de mercancía</item>
+        <item>Servicio de recolección</item>
+    </string-array>
+
+    <!-- my comeback -->
+    <string name="mis_regresos">Mis Regresos</string>
+    <string name="pub_regresos">Publica Regresos</string>
+    <string name="buscar_carga">Buscar Carga</string>
+    <string name="text1">Nombra tu regreso:</string>
+    <string name="text2">¿En que tipo de camión vas?:</string>
+    <string name="text3">Descripción del regreso:</string>
+    <string name="text4">Fecha en la que sales:</string>
+    <string name="text5">fecha de llegada:</string>
+    <string name="text6">¿Donde Empieza tu ruta?</string>
+    <string name="text7">Capacidad al inicio:</string>
+    <string name="text8">Cual es el final de tu ruta?:</string>
+    <string name="text9">Capacidad al final:</string>
+    <string name="text10">Agregar ciudad por donde vas a pasar:</string>
+    <string name="text11">Publicar Regreso</string>
+    <string name="rutas">Rutas de regreso</string>
+    <string name="cargas">Carga Utiles</string>
+    <string name="preguntas">Preguntas</string>
+    <string name="solicitudes">Solicitudes</string>
+
+    <string-array name="spn_regresos_tab">
+        <item>Regresos activos</item>
+        <item>Regresos cancelados</item>
+        <item>Regresos terminados</item>
+    </string-array>
+    <string-array name="spn_shipments_tab">
+        <item>Buscando Transportista</item>
+        <item>Trabajos Programados</item>
+        <item>Cargas Entregadas</item>
+        <item>Publicaciones Terminadas</item>
+    </string-array>
+    <string-array name="array_capacity">
+        <item>10 % Libre</item>
+        <item>20 % Libre</item>
+        <item>30 % Libre</item>
+        <item>40 % Libre</item>
+        <item>50 % Libre</item>
+        <item>75 % Libre</item>
+        <item>100 % Libre</item>
+    </string-array>
+
+    <!-- my shipment -->
+    <string name="mis_cargas">Mis Cargas</string>
+    <string name="pub_cargas">Publica Cargas</string>
+    <string name="buscar_regreso">Buscar Regreso</string>
+    <string name="btn_ver_ofertas_txt">Revisar Ofertas</string>
+    <string name="text_carga">Nombra tu carga:</string>
+    <string name="text_categoria">Elige una categoría</string>
+    <string name="text_camion">¿Que tipo de camión necesitas?:</string>
+    <string name="text_descripcion">Descripción detallada de la carga:</string>
+    <string name="text_fecha_salida">Fecha para recoger tu carga:</string>
+    <string name="text_fecha_llegada">Fecha para entregar tu carga:</string>
+    <string name="text_origen">Ciudad de Origen:</string>
+    <string name="text_destino">Ciudad destino:</string>
+    <string name="text_calle">Calle</string>
+    <string name="text_gato">#</string>
+    <string name="text_Colonia">Colonia</string>
+    <string name="text_ancho">Ancho(mts)</string>
+    <string name="text_alto">Alto(mts)</string>
+    <string name="text_largo">Largo(mts)</string>
+    <string name="text_peso">Peso(kg)</string>
+    <string name="text_publicar_carga">Publicar carga</string>
+    <!-- carriers -->
+    <string name="carrier_des">Despripcion de la Carga</string>
+    <string name="carrier_tab1_txt">Tipo de Camiones</string>
+    <string name="carrier_tab2_txt">Mis Servicios</string>
+    <string name="carrier_tab3_txt">Comentarios</string>
+    <string name="btn_quote">Pide una cotizacion</string>
+    <string name="btn_ques">Haz una pregunta</string>
+    <string name="btn_editprofile">Editar mi perfil</string>
+
+    <string-array name="home_text">
+        <item>Encuentra transportistas, cargas y fletes de regreso, Regístrate GRATIS y comienza a contactarlos.</item>
+        <item>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text </item>
+        <item>Encuentra transportistas, cargas y fletes de regreso Regístrate GRATIS y comienza a contactarlos.</item>
+        <item>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text </item>
+    </string-array>
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

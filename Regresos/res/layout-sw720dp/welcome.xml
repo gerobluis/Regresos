@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:src="@drawable/banners_logistico" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:background="#EF7A1D"
+        android:orientation="vertical" >
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/CustomFontTextView01"
+            style="@style/BlackTextBold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="¡Muchas Gracias por registrarte con nosotros!"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="32sp" />
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/carga_title"
+            style="@style/BlackTextBold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="Bienvenido a la comunidad de Regresos.com"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/CustomFontTextView02"
+            style="@style/BlackTextBold"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/side_alert_dialog"
+            android:text="Pronto podrás disfrutar de los beneficios que te ofrecemos de manera gratuita"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/CustomFontTextView03"
+            style="@style/DrawerTextWhite"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="14dp"
+            android:text="¡Espera la actualización!"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/height_foto"
+        android:src="@drawable/splash_logo" />
+
+</RelativeLayout>

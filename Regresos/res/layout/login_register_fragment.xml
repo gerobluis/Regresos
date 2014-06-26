@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.regresos"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageSwitcher
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_1" />
+
+    <ImageView
+        android:id="@+id/image_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/image_registro" />
+
+    <com.regresos.utils.CustomFontTextView
+        android:id="@+id/homeText"
+        style="@style/HomeText"
+        android:layout_below="@+id/image_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <com.regresos.utils.CustomFontButton
+            android:id="@+id/btn_register"
+            style="@style/CustomButton"
+            android:onClick="onClickRegister"
+            android:text="@string/btn_reg_txt" />
+
+        <com.regresos.utils.CustomFontButton
+            android:id="@+id/btn_login"
+            style="@style/CustomButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="onClickLogin"
+            android:text="@string/btn_login_txt" />
+    </LinearLayout>
+
+</RelativeLayout>

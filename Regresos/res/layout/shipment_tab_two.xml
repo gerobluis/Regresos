@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_return_name"
+            style="@style/BlackEditText"
+            android:drawableLeft="@drawable/regreso"
+            android:hint="@string/text_carga" />
+
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_category"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/tipocamion"
+            android:drawableRight="@drawable/next"
+            android:focusable="false"
+            android:hint="@string/text_categoria" />
+
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_truck"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/tipocamion"
+            android:drawableRight="@drawable/next"
+            android:focusable="false"
+            android:hint="@string/text_camion" />
+
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_regresos_description"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/descripcion"
+            android:hint="@string/text_descripcion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+			 <com.regresos.utils.CustomEditText
+                android:id="@+id/et_when_sales"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                
+                android:ems="5"
+                android:focusable="false"
+                android:hint="" />
+             <com.regresos.utils.CustomEditText
+                 android:id="@+id/et_date_sales"
+                 style="@style/BlackEditText"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="5dp"
+                 android:drawableLeft="@drawable/calendario"
+                 android:ems="10"
+                 android:focusable="false"
+                 android:hint="@string/text_fecha_salida" />
+
+           
+
+               
+           
+
+           
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <com.regresos.utils.CustomEditText
+                android:id="@+id/et_when_arrival"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"               
+                android:ems="5"
+                android:focusable="false"
+                android:hint=""/>
+
+			 <com.regresos.utils.CustomEditText
+	            android:id="@+id/et_date_arrival"
+	            style="@style/BlackEditText"
+	            android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:ems="10"
+	            android:layout_marginTop="5dp"
+	            android:drawableLeft="@drawable/calendario"
+	            android:focusable="false"
+	            android:hint="@string/text_fecha_llegada" />
+         
+        </LinearLayout>
+
+       
+
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_start_route"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            android:focusable="false"
+            android:drawableLeft="@drawable/ruta"
+            android:hint="@string/text_origen" />
+        
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <com.regresos.utils.CustomEditText
+                android:id="@+id/et_start_calle"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"               
+                android:ems="7"
+            
+                android:hint="@string/text_calle"/>
+
+			 <com.regresos.utils.CustomEditText
+	            android:id="@+id/et_start_numero"
+	            style="@style/BlackEditText"
+	            android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:ems="8"
+	            android:layout_marginTop="5dp"
+	           
+	          
+	            android:hint="@string/text_gato" />
+         
+        </LinearLayout>
+        <com.regresos.utils.CustomEditText
+            android:id="@+id/et_start_colonia"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            
+            android:hint="@string/text_Colonia" />
+         <com.regresos.utils.CustomEditText
+            android:id="@+id/et_end_route"
+             android:focusable="false"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ruta"
+            android:hint="@string/text_destino" />
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <com.regresos.utils.CustomEditText
+                android:id="@+id/et_end_calle"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"               
+                android:ems="7"
+                
+                android:hint="@string/text_calle"/>
+
+			 <com.regresos.utils.CustomEditText
+	            android:id="@+id/et_end_numero"
+	            style="@style/BlackEditText"
+	            android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:ems="8"
+	            android:layout_marginTop="5dp"
+	            
+	            
+	            android:hint="@string/text_gato" />
+         
+        </LinearLayout>
+         <com.regresos.utils.CustomEditText
+            android:id="@+id/et_end_colonia"
+            style="@style/BlackEditText"
+            android:layout_marginTop="5dp"
+           
+            android:hint="@string/text_Colonia" />
+       
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <com.regresos.utils.CustomEditText
+                android:id="@+id/et_width"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"               
+                android:ems="7"
+                
+                android:hint="@string/text_ancho"/>
+
+			 <com.regresos.utils.CustomEditText
+	            android:id="@+id/et_height"
+	            style="@style/BlackEditText"
+	            android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:ems="8"
+	            android:layout_marginTop="5dp"
+	            android:drawableLeft="@drawable/calendario"
+	           
+	            android:hint="@string/text_alto" />
+         
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             <com.regresos.utils.CustomEditText
+                android:id="@+id/et_length"
+                style="@style/BlackEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"               
+                android:ems="7"
+                
+                android:hint="@string/text_largo"/>
+
+			 <com.regresos.utils.CustomEditText
+	            android:id="@+id/et_weight"
+	            style="@style/BlackEditText"
+	            android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:ems="8"
+	            android:layout_marginTop="5dp"
+	            android:drawableLeft="@drawable/calendario"
+	            
+	            android:hint="@string/text_peso" />
+			 
+         
+        </LinearLayout>
+        
+         <com.regresos.utils.CustomFontButton
+            android:id="@+id/btn_submit_regresos"
+            style="@style/CustomButton"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_publicar_carga" />
+    </LinearLayout>
+
+</ScrollView>

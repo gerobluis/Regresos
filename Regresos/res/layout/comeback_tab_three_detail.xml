@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.regresos.utils.CustomFontTextView
+            style="@style/BlackTextBold"
+            android:text="Detalle de Carga" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comeback_tab_bg" >
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/BlackText"
+                    android:text="Muebles" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/ListItem"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="Estatus: Buscando" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_origin"
+                    style="@style/BlackText"
+                    android:text="Origen: Hermosilo, Sonora" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_destination"
+                    style="@style/BlackText"
+                    android:layout_below="@+id/tv_origin"
+                    android:text="Destino: Hermosilo, Sonora" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/next2" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/comeback_tab3_detail"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comeback_tab_bg" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_com_name"
+                    style="@style/BlackText"
+                    android:text="JOSE CARLOS" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_com_name1"
+                    style="@style/ListItemText"
+                    android:layout_below="@+id/tv_com_name"
+                    android:text="SOLUCIONES LOGISTICS AVACAL  TRANSPORTES" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_date1"
+                    style="@style/BlackText"
+                    android:text="Recoger : 12/12/12" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_date2"
+                    style="@style/BlackText"
+                    android:layout_below="@+id/tv_date1"
+                    android:text="Entregar : 12/12/12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comeback_tab_bg" >
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/BlackText"
+                    android:text="Camion:" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/next" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.regresos.utils.CustomFontTextView
+                style="@style/BlackTextBold"
+                android:text="Descripcion de Regreso" />
+
+            <com.regresos.utils.CustomEditText
+                style="@style/BlackEditText"
+                android:inputType="text" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</ScrollView>

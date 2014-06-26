@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spn_shipment_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spn_shipments_tab" />
+
+    <ListView
+        android:id="@+id/shipment_tab_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+         android:background="@android:color/white"
+         android:divider="#EEEEEE" android:dividerHeight="10px">
+    </ListView>
+
+</LinearLayout>

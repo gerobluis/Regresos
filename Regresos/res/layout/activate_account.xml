@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.regresos.utils.CustomFontTextView
+        style="@style/BlackTextBold"
+        android:text="¡Regresos tiene una entrega para ti!" />
+
+    <com.regresos.utils.CustomFontTextView
+        style="@style/BlackText"
+        android:text="Solo da click en el link de abajo para activar tu cuenta" />
+
+    <com.regresos.utils.CustomFontButton
+        android:id="@+id/btn_activate_acc"
+        style="@style/CustomButton"
+        android:layout_marginTop="10dp"
+        android:background="#d15e4e"
+        android:text="Activa tu cuenta aquí" />
+
+</LinearLayout>

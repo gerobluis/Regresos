@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.regresos.utils.CustomFontTextView
+            style="@style/ListItem"
+            android:text="Estatus: Buscando" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E2E1E0" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_detail_title"
+                    style="@style/BlackText"
+                    android:text="Viaji de Sonora a Mty" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_ori_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_origin"
+                    style="@style/BlackText"
+                    android:text="Origen: Hermosilo, Sonora" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_destination"
+                    style="@style/BlackText"
+                    android:layout_below="@+id/tv_origin"
+                    android:text="Destino: Hermosilo, Sonora" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/next2" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.regresos.utils.CustomFontTextView
+            style="@style/BlackTextBold"
+            android:layout_marginTop="5dp"
+            android:text="Detalle de la Empresa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E2E1E0" >
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/BlackText"
+                    android:text="Transporte Garza" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_date1"
+                    style="@style/BlackText"
+                    android:text="Fecha de Salida: 12/12/12" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_date2"
+                    style="@style/BlackText"
+                    android:layout_below="@+id/tv_date1"
+                    android:text="Fecha de Llegada : 12/12/12" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/CustomFontTextView01"
+                    style="@style/BlackText"
+                    android:layout_below="@+id/tv_date2"
+                    android:text="Camión : Caballete" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comeback_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.regresos.utils.CustomFontTextView
+                style="@style/BlackTextBold"
+                android:text="Descripcion de Regreso" />
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/tv_desc"
+                style="@style/BlackText"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comeback_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#E2E1E0"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:id="@+id/comeback_one_tab1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/comeback_one_tab1" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:singleLine="true"
+                    android:text="@string/rutas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/comeback_one_tab2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/comeback_one_tab2" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/cargas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/comeback_one_tab3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/comeback_one_tab3" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/preguntas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/comeback_one_tab4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/comeback_one_tab4" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/solicitudes" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

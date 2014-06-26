@@ -1,0 +1,96 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#149197</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+    <style name="HomeText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+    <style name="BlackText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+    <style name="ComebackTabText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/tab_color</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+    <style name="CarrierTabText" parent="@style/ComebackTabText">
+        <item name="android:textColor">@color/carrier_tab_color</item>
+    </style>
+
+    <style name="BlackTextBold" parent="@style/BlackText">
+        <item name="customFont">fonts/RobotoCondensed-Bold.ttf</item>
+    </style>
+
+    <style name="DrawerTextWhite" parent="@style/BlackTextBold">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+        <style name="WelcomeTextWhite" parent="@style/BlackTextBold">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:textSize">1sp</item>
+    </style>
+       
+    <style name="MenuTextWhite" parent="@style/BlackText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ListItemText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#06b3c7</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+    <style name="ListItem" parent="@style/ListItemText">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="BlackEditText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="customFont">fonts/RobotoCondensed-Regular.ttf</item>
+    </style>
+
+</resources>

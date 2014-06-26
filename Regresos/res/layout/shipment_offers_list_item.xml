@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="197dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_list_item"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/image_home" />
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/CustomFontTextView03"
+            style="@style/BlackTextBold"
+            android:layout_toRightOf="@+id/ImageView01"
+            android:text="Viaji de Sonora a Mty" />
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/CustomFontTextView02"
+            style="@style/ListItemText"
+            android:layout_below="@+id/CustomFontTextView03"
+            android:layout_toRightOf="@+id/ImageView01"
+            android:paddingLeft="5dp"
+            android:text="Plataforma - Torton" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CustomFontTextView02"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/ImageView01"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/CustomFontTextView04"
+                style="@style/ListItem"
+                android:text="Salida: Hermosillo Sanora" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_list_item"
+        android:padding="5dp" >
+
+        <com.regresos.utils.CustomFontTextView
+            android:id="@+id/tv_shipment_offer"
+            style="@style/BlackTextBold"
+            android:text="Oferta:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_shipment_offer"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/tv_comeback_source"
+                style="@style/ListItem"
+                android:text="Camiones" />
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/tv_truck"
+                style="@style/ListItem"
+                android:text="Salida: EI 25-11-2013" />
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/tv_comeback_dest"
+                style="@style/ListItem"
+                android:layout_marginTop="5dp"
+                android:text="Servicios" />
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/tv_cb_end_date"
+                style="@style/ListItem"
+                android:text="Entrega: EI 25-11-2013" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

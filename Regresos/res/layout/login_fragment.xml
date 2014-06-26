@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.regresos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/image_registro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.regresos.utils.CustomFontTextView
+                style="@style/BlackTextBold"
+                android:text="@string/login_txt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_line"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_username"
+                    style="@style/BlackEditText"
+                    android:drawableLeft="@drawable/nombre"
+                    android:hint="@string/hint_mail"
+                    android:inputType="textEmailAddress" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_password"
+                    style="@style/BlackEditText"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/contrasena"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword" />
+
+                <com.regresos.utils.CustomCheckBox
+                    android:id="@+id/chk_rem_pass"
+                    style="@style/BlackText"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/re_pass_txt" />
+            </LinearLayout>
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/txt_for_pass"
+                style="@style/BlackText"
+                android:layout_marginTop="10dp"
+                android:text="@string/for_pass_txt" />
+
+            <com.regresos.utils.CustomFontButton
+                android:id="@+id/btn_login_frag"
+                style="@style/CustomButton"
+                android:layout_marginTop="10dp"
+                android:text="@string/btn_login_txt" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

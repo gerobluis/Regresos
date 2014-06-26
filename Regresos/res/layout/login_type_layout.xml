@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.regresos.utils.CustomFontButton
+        android:id="@+id/btn_dcarga"
+        style="@style/CustomButton"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/side_alert_dialog"
+        android:layout_marginRight="@dimen/side_alert_dialog"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickRegister"
+        android:text="@string/dueno_carga_txt" />
+
+    <com.regresos.utils.CustomFontButton
+        android:id="@+id/btn_transportista"
+        style="@style/CustomButton"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/side_alert_dialog"
+        android:layout_marginRight="@dimen/side_alert_dialog"
+        android:onClick="onClickRegister"
+        android:text="@string/transportista_txt" />
+
+	      <com.regresos.utils.CustomFontButton
+	          android:id="@+id/btn_logistico"
+	          style="@style/CustomButton"
+	          android:layout_marginBottom="20dp"
+	          android:layout_marginLeft="@dimen/side_alert_dialog"
+	          android:layout_marginRight="@dimen/side_alert_dialog"
+	          android:onClick="onClickRegister"
+	          android:text="@string/logistico_txt" />
+
+</LinearLayout>

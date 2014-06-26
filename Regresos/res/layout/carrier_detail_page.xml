@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.regresos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/image_registro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="5dp" >
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_com_name"
+                    style="@style/BlackText"
+                    android:text="JOSE CARLOS" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/tv_com_name1"
+                    style="@style/ListItemText"
+                    android:layout_below="@+id/tv_com_name"
+                    android:text="SOLUCIONES LOGISTICS AVACAL  TRANSPORTES" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_com_name1"
+                    android:numStars="5"
+                    android:rating="4" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.regresos.utils.CustomFontTextView
+            style="@style/BlackTextBold"
+            android:text="@string/carrier_des" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/border_line"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.regresos.utils.CustomEditText
+                style="@style/BlackEditText"
+                android:text="Producto terminado en papel, el operador deve contar " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/comeback_tab_bg"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:id="@+id/carrier_tab1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/carrier_tab1" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/carrier_tab1_txt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carrier_tab2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/carrier_tab2" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/carrier_tab2_txt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carrier_tab3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/carrier_tab_bg"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/carrier_tab3" />
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/CarrierTabText"
+                    android:text="@string/carrier_tab3_txt" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.regresos.utils.CustomFontButton
+            style="@style/CustomButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="@string/btn_quote" />
+
+        <com.regresos.utils.CustomFontButton
+            style="@style/CustomButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="@string/btn_ques" />
+    </LinearLayout>
+
+</ScrollView>

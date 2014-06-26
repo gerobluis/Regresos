@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.regresos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/image_registro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_line"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/BlackTextBold"
+                    android:text="@string/register_txt" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_reg_first_name"
+                    style="@style/BlackEditText"
+                    android:drawableLeft="@drawable/nombre"
+                    android:hint="@string/hint_reg_first_name"
+                    android:inputType="textCapWords" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_reg_last_name"
+                    style="@style/BlackEditText"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/nombre"
+                    android:hint="@string/hint_reg_last_name"
+                    android:inputType="textCapWords" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_email"
+                    style="@style/BlackEditText"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/mail"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress" />
+
+                <Spinner
+                    android:id="@+id/spn_know"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:drawableLeft="@drawable/descripcion"
+                    android:entries="@array/arr_how_know"
+                    android:padding="10dp" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_tele"
+                    style="@style/BlackEditText"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/telefono"
+                    android:hint="@string/hint_tele"
+                    android:inputType="number"
+                    android:maxLength="10" />
+
+                <Spinner
+                    android:id="@+id/spn_tele_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_bg"
+                    android:drawableLeft="@drawable/descripcion"
+                    android:entries="@array/arr_type"
+                    android:padding="10dp" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_reg_password"
+                    style="@style/BlackEditText"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/contrasena"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <com.regresos.utils.CustomFontTextView
+                android:id="@+id/registerquestion"
+                style="@style/BlackText"
+                android:layout_marginTop="10dp"
+                android:text="@string/already_have_acc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <com.regresos.utils.CustomCheckBox
+                    android:id="@+id/chk_account"
+                    style="@style/BlackText"
+                    android:checked="true" />
+
+                <com.regresos.utils.CustomEditText
+                    android:id="@+id/edit_business"
+                    style="@style/BlackEditText"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="false"
+                    android:hint="@string/hint_business_name"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_business_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.regresos.utils.CustomFontTextView
+                    style="@style/BlackTextBold"
+                    android:text="@string/acc_data" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_line"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.regresos.utils.CustomFontTextView
+                        style="@style/BlackText"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/des" />
+
+                    <com.regresos.utils.CustomEditText
+                        android:id="@+id/edit_des"
+                        style="@style/BlackEditText"
+                        android:inputType="textCapSentences" />
+
+                    <com.regresos.utils.CustomFontTextView
+                        style="@style/BlackText"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/office" />
+
+                    <com.regresos.utils.CustomEditText
+                        android:id="@+id/edit_office"
+                        style="@style/BlackEditText"
+                        android:background="@drawable/edit_bg"
+                        android:inputType="text" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.regresos.utils.CustomCheckBox
+                    android:id="@+id/chk_accept_agree"
+                    style="@style/BlackText"
+                    android:layout_marginTop="10dp" />
+
+                <com.regresos.utils.CustomFontTextView
+                    android:id="@+id/txt_accept_link"
+                    style="@style/BlackText"
+                    android:layout_gravity="center"
+                    android:text="@string/register_txt" />
+            </LinearLayout>
+
+            <com.regresos.utils.CustomFontButton
+                android:id="@+id/btn_reg_frag"
+                style="@style/CustomButton"
+                android:layout_marginTop="10dp"
+                android:text="@string/btn_reg_txt" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
